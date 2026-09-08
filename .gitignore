@@ -1,0 +1,13 @@
+# Logs & runtime
+server.out.log
+server.err.log
+*.log
+server.pid
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

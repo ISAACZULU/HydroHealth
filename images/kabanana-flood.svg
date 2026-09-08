@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="floodSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6C757D"/>
+      <stop offset="0.45" stop-color="#8B6F47"/>
+      <stop offset="1" stop-color="#4A3826"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#floodSky)"/>
+  <!-- Houses along the skyline -->
+  <rect x="120" y="300" width="140" height="150" fill="#343A40"/>
+  <polygon points="110,300 190,240 270,300" fill="#2D2D2D"/>
+  <rect x="260" y="340" width="180" height="110" fill="#3E4046"/>
+  <polygon points="250,340 350,270 450,340" fill="#2D2D2D"/>
+  <rect x="430" y="280" width="130" height="170" fill="#343A40"/>
+  <polygon points="420,280 495,220 570,280" fill="#2D2D2D"/>
+  <rect x="820" y="320" width="160" height="130" fill="#3E4046"/>
+  <polygon points="810,320 900,255 990,320" fill="#2D2D2D"/>
+  <rect x="980" y="280" width="150" height="170" fill="#343A40"/>
+  <polygon points="970,280 1055,215 1140,280" fill="#2D2D2D"/>
+  <!-- Flood water -->
+  <path d="M0 430 q 200 70 400 0 t 400 0 t 400 0 v370 h-1200 z" fill="#1B4965" opacity="0.95"/>
+  <path d="M0 490 q 200 60 400 0 t 400 0 t 400 0 v310 h-1200 z" fill="#0D3B5C" opacity="0.9"/>
+  <path d="M0 560 q 200 80 400 0 t 400 0 t 400 0 v240 h-1200 z" fill="#2EC4B6" opacity="0.8"/>
+  <circle cx="150" cy="700" r="8" fill="#CAF0F8" opacity="0.7"/>
+  <circle cx="620" cy="720" r="6" fill="#CAF0F8" opacity="0.7"/>
+  <circle cx="1050" cy="690" r="9" fill="#CAF0F8" opacity="0.7"/>
+</svg>
